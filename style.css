@@ -1,0 +1,86 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: lightcyan;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: lightcoral;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3 {
+    color: #007bff;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  ol {
+    list-style-type: disc;
+    padding: 0;
+    margin: 0 auto; 
+    text-align: center; 
+   
+}
+
+li {
+    display: block; 
+    margin-top: 10px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+   
+}
+ol {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+ol li {
+    background: #4caf50; 
+    color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1em;
+    text-align: center; 
+}
+
+ol li::before {
+    content: "•"; 
+    color: #fff; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+}
+  
+  .footer {
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+.footer a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ccc; 
+}
